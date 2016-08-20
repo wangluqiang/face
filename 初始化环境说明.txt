@@ -1,0 +1,7 @@
+预处理：2个，一个名称preprocess_test,用于正常运行的系统；另一个为preprocess_prepare，用于测试预处理添加后是否正常
+比对：1个，名称match_test
+设备：>2个，一个名称为invalid_device_test,用于连接不存在的摄像头；其他名称device_test
+通道：>2个，一个名称invalid_channel_test，该channel连接不存在的摄像头；另外几个连接存在的摄像头，名称为channel_test。
+人脸库：1个，名称facedb_test
+人员：若干，以后细定
+视频文件：1个，test_video.avi

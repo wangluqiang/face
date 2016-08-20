@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+		<db_server ip="192.168.29.27" port="3306" name="face_zqq" user="admin" passwd="123.com">
+		</db_server>
+		<rest_server ip="192.168.29.27" port="7000">
+		</rest_server>	
+		<thrift_server ip="192.168.29.27" port="9090">
+		</thrift_server>
+		<thrift_match ip="192.168.29.27" port="13000">
+		</thrift_match>
+		<thrift_preprocess ip="192.168.29.27" port="">
+		</thrift_preprocess>
+		<path>
+				<device>/v2/device</device>
+				<preprocess>/v2/collections</preprocess>
+				<match>/v2/matchs</match>
+				<facedb>/v2/facedbs</facedb> 
+				<person>/v2/persons</person>
+				<require>/v2/facesearchresult</require>
+		</path>
+		<device ip="192.168.29.218" port=80 user="admin" passwd="opzoon12345">
+		</device>
+		<device ip="192.168.29.219" port=80 user="opzoon" passwd="opzoon">
+		</device>
+</catalog>

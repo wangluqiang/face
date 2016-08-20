@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+		<db_server ip="192.168.29.139" port="3306" name="frs_auto_1120" user="opzoon" passwd="123.com">
+		</db_server>
+		<rest_server ip="192.168.29.139" port="5000">
+		</rest_server>
+		<thrift_server ip="192.168.29.139" port="9090">
+		</thrift_server>
+		<thrift_match ip="192.168.29.139" port="9092">
+		</thrift_match>
+		<thrift_preprocess ip="192.168.29.139" port="9091">
+		</thrift_preprocess>
+		<path>
+				<device>/v2/devices</device>
+				<preprocess>/v2/collections</preprocess>
+				<match>/v2/matchs</match>
+				<facedb>/v2/facedbs</facedb> 
+				<person>/v2/persons</person>
+				<require>/v2/facesearchresult</require>
+				<facepic>/v2/facepic</facepic>
+				<video>/v2/videos</video>
+				<grab_remark>/v2/grab_remark</grab_remark>
+		</path>
+		<camera_device ip="192.168.30.227" port='80' user="admin" passwd="opzoon12345">
+		</camera_device>
+		<camera_device ip="192.168.31.190" port='80' user="admin" passwd="12345">
+		</camera_device>
+		<camera_device_invalid ip="10.10.10.10" port='80' user="admin" passwd="12345">
+		</camera_device_invalid>>
+		<mail_from user="opzoon_frs_test@sina.com" passwd="pmbfzpanmiqjyias">
+		</mail_from>
+		<mail_to>wujingjing@opzoon.com</mail_to>
+</catalog>
