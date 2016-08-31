@@ -27,7 +27,7 @@
 		</camera_device>
 		<camera_device_invalid ip="10.10.10.10" port='80' user="admin" passwd="12345">
 		</camera_device_invalid>>
-		<mail_from user="opzoon_frs_test@sina.com" passwd="pmbfzpanmiqjyias">
+		<mail_from user="test@sina.com" passwd="password">
 		</mail_from>
-		<mail_to>wujingjing@opzoon.com</mail_to>
+		<mail_to>example@qq.com</mail_to>
 </catalog>
